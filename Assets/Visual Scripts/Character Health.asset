@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Character Health
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Start","label":"Start","summary":"Starts
+      the graph","hideLabel":false}],"controlOutputDefinitions":[{"key":"Finish","label":"Finish","summary":"Finishes
+      the graph","hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Health
+      Script","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-577.0,"y":-88.0},"guid":"2b92b0fd-fb39-483a-8119-3f832f861f3a","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"11"},{"kind":"Object","defaultValues":{"name":{"$content":"Health","$type":"System.String"},"object":null},"position":{"x":-89.0,"y":-130.0},"guid":"dc57e54f-002c-4512-9f05-c9e18398912c","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Health","$type":"System.String"},"object":null},"position":{"x":-564.0,"y":40.0},"guid":"6bf304ce-3f21-410a-814a-e940c83244f1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"defaultValues":{"minuend":{"$content":1.0,"$type":"System.Single"},"subtrahend":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-272.0,"y":24.0},"guid":"41848a85-6422-4492-9e92-d46e8419b318","$version":"A","$type":"Unity.VisualScripting.ScalarSubtract","$id":"17"},{"defaultValues":{},"position":{"x":210.0,"y":-101.0},"guid":"ff367fc7-a9a7-437b-93ac-1a357c160a53","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"19"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Start","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"86072769-12aa-4d61-8cbc-7045e53407c6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"assigned","destinationUnit":{"$ref":"19"},"destinationKey":"Finish","guid":"d42b9833-bb8c-454c-b2f5-4af084399bc4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"minuend","guid":"61291cdc-e2d4-47c1-811a-0d6139270778","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"difference","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"38f21b7c-751f-4727-a269-cd1ae7036add","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
